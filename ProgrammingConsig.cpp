@@ -32,7 +32,7 @@ int main(){
 		cin>>oper1;
 		if(oper1 == 1){
 			cout<<"\n---------------------------------";
-		cout<<"\nCADASTRAMENTO DE OPERACAO NOVA [INSS]";
+			cout<<"\nCADASTRAMENTO DE OPERACAO NOVA [INSS]";
 			cout<<"\n---------------------------------";
 			cout<<"\nInforme o nome do cliente: ";
 			cin>>nom;
