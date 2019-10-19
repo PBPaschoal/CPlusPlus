@@ -8,7 +8,7 @@
  *Resultado deve limpar a tela e mostrar os dados do cliente mais; 
  *o percentual da comissão e o valor da comissão(em caso de refin também é mostrado o valor liberado para o cliente). 
  *Depois irei fazer o mesmo programinha mas reduzindo as linhas, acredito que a estrutura de repetição ajude. 
- *Testei em site simulador de IDE e em umas IDE's, funcionou 100%, porem algumas IDEs o comando system("cls") ou system("clear") nao funcionam.*/
+ */
  
 #include <iostream>
 
@@ -28,12 +28,12 @@ int main(){
 		cout<<"\nVoce selecionou INSS";
 		cout<<"\nEscolha o tipo de operacao para cadastramento: ";
 		cout<<"\n[1] = [NOVO]: ";
-		cout<<"\n[2] = [REFINANCIAMENTO]: \n";
+		cout<<"\n[2] = [REFINANCIAMENTO]: \n\n";
 		cin>>oper1;
 		if(oper1 == 1){
-			cout<<"\n------------------------------";
+			cout<<"\n---------------------------------";
 		cout<<"\nCADASTRAMENTO DE OPERACAO NOVA [INSS]";
-			cout<<"\n------------------------------";
+			cout<<"\n---------------------------------";
 			cout<<"\nInforme o nome do cliente: ";
 			cin>>nom;
 			cout<<"\nInforme o CPF do cliente: ";
@@ -44,10 +44,10 @@ int main(){
 			cin>>parcel;
 			cout<<"\nInforme o prazo: ";
 			cin>>praz;
-			system("cls"); //Comentario na descrição.
-			cout<<"\n------------------------------";
+			system("cls");
+			cout<<"\n-----------------------";
 			cout<<"\n RESULTADO DA PROPOSTA ";
-			cout<<"\n------------------------------";
+			cout<<"\n-----------------------";
 			cout<<"\nCLIENTE: "<<nom;
 			cout<<"\nCPF: "<<cepf;
 			cout<<"\nValor Bruto: "<<brut;
@@ -57,9 +57,9 @@ int main(){
 			comiss = brut * 7/100; //Valor da comissão liquida à receber.
 			cout<<"\nValor da Comissao: "<<comiss;
 		} else if(oper1 == 2) {
-			cout<<"\n------------------------------";
+			cout<<"\n---------------------------------------";
 			cout<<"\nCADASTRAMENTO DE REFINANCIAMENTO [INSS]";
-			cout<<"\n------------------------------";
+			cout<<"\n---------------------------------------";
 			cout<<"\nInforme o nome do cliente: ";
 			cin>>nom;
 			cout<<"\nInforme o CPF do cliente: ";
@@ -72,10 +72,10 @@ int main(){
 			cin>>parcel;
 			cout<<"\nInforme o prazo: ";
 			cin>>praz;
-			system("cls"); //Comentario na descrição.
-			cout<<"\n------------------------------";
+			system("cls");
+			cout<<"\n-----------------------";
 			cout<<"\n RESULTADO DA PROPOSTA ";
-			cout<<"\n------------------------------";
+			cout<<"\n-----------------------";
 			cout<<"\nCLIENTE: "<<nom;
 			cout<<"\nCPF: "<<cepf;
 			cout<<"\nValor Bruto: "<<brut;
@@ -94,12 +94,12 @@ int main(){
 		cout<<"\nVoce selecionou SIAPE";
 		cout<<"\nEscolha o tipo de operacao para cadastramento: ";
 		cout<<"\n[1] = [NOVO]: ";
-		cout<<"\n[2] = [REFINANCIAMENTO]: \n";
+		cout<<"\n[2] = [REFINANCIAMENTO]: \n\n";
 		cin>>oper1;
 		if(oper1 == 1){
-			cout<<"\n------------------------------";
+			cout<<"\n--------------------------------------";
 			cout<<"\nCADASTRAMENTO DE OPERACAO NOVA [SIAPE]";
-			cout<<"\n------------------------------";
+			cout<<"\n--------------------------------------";
 			cout<<"\nInforme o nome do cliente: ";
 			cin>>nom;
 			cout<<"\nInforme o CPF do cliente: ";
@@ -110,10 +110,10 @@ int main(){
 			cin>>parcel;
 			cout<<"\nInforme o prazo: ";
 			cin>>praz;
-			system("cls"); //Comentario na descrição.
-			cout<<"\n------------------------------";
+			system("cls");
+			cout<<"\n-----------------------";
 			cout<<"\n RESULTADO DA PROPOSTA ";
-			cout<<"\n------------------------------";
+			cout<<"\n-----------------------";
 			cout<<"\nCLIENTE: "<<nom;
 			cout<<"\nCPF: "<<cepf;
 			cout<<"\nValor Bruto: "<<brut;
@@ -123,9 +123,9 @@ int main(){
 			comiss = brut * 9/100; //Valor da comissão liquida à receber.
 			cout<<"\nValor da Comissao: "<<comiss;
 		} else if(oper1 == 2) {
-			cout<<"\n------------------------------";
+			cout<<"\n----------------------------------------";
 			cout<<"\nCADASTRAMENTO DE REFINANCIAMENTO [SIAPE]";
-			cout<<"\n------------------------------";
+			cout<<"\n----------------------------------------";
 			cout<<"\nInforme o nome do cliente: ";
 			cin>>nom;
 			cout<<"\nInforme o CPF do cliente: ";
@@ -138,10 +138,10 @@ int main(){
 			cin>>parcel;
 			cout<<"\nInforme o prazo: ";
 			cin>>praz;
-			system("cls"); //Comentario na descrição.
-			cout<<"\n------------------------------";
+			system("cls");
+			cout<<"\n-----------------------";
 			cout<<"\n RESULTADO DA PROPOSTA ";
-			cout<<"\n------------------------------";
+			cout<<"\n-----------------------";
 			cout<<"\nCLIENTE: "<<nom;
 			cout<<"\nCPF: "<<cepf;
 			cout<<"\nValor Bruto: "<<brut;
@@ -160,12 +160,12 @@ int main(){
 		cout<<"\nVoce selecionou EXERCITO";
 		cout<<"\nEscolha o tipo de operacao para cadastramento: ";
 		cout<<"\n[1] = [NOVO]: ";
-		cout<<"\n[2] = [REFINANCIAMENTO]: \n";
+		cout<<"\n[2] = [REFINANCIAMENTO]: \n\n";
 		cin>>oper1;
 		if(oper1 == 1){
-			cout<<"\n------------------------------";
+			cout<<"\n-----------------------------------------";
 			cout<<"\nCADASTRAMENTO DE OPERACAO NOVA [EXERCITO]";
-			cout<<"\n------------------------------";
+			cout<<"\n-----------------------------------------";
 			cout<<"\nInforme o nome do cliente: ";
 			cin>>nom;
 			cout<<"\nInforme o CPF do cliente: ";
@@ -176,10 +176,10 @@ int main(){
 			cin>>parcel;
 			cout<<"\nInforme o prazo: ";
 			cin>>praz;
-			system("cls"); //Comentario na descrição.
-			cout<<"\n------------------------------";
+			system("cls");
+			cout<<"\n-----------------------";
 			cout<<"\n RESULTADO DA PROPOSTA ";
-			cout<<"\n------------------------------";
+			cout<<"\n-----------------------";
 			cout<<"\nCLIENTE: "<<nom;
 			cout<<"\nCPF: "<<cepf;
 			cout<<"\nValor Bruto: "<<brut;
@@ -204,10 +204,10 @@ int main(){
 			cin>>parcel;
 			cout<<"\nInforme o prazo: ";
 			cin>>praz;
-			system("cls"); //Comentario na descrição.
-			cout<<"\n------------------------------";
+			system("cls");
+			cout<<"\n-----------------------";
 			cout<<"\n RESULTADO DA PROPOSTA ";
-			cout<<"\n------------------------------";
+			cout<<"\n-----------------------";
 			cout<<"\nCLIENTE: "<<nom;
 			cout<<"\nCPF: "<<cepf;
 			cout<<"\nValor Bruto: "<<brut;
