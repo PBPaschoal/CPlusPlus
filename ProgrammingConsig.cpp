@@ -7,7 +7,11 @@
  *Informe os dados do cliente e da proposta;
  *Resultado deve limpar a tela e mostrar os dados do cliente mais; 
  *o percentual da comissão e o valor da comissão(em caso de refin também é mostrado o valor liberado para o cliente). 
- *Depois irei fazer o mesmo programinha mas reduzindo as linhas, acredito que a estrutura de repetição ajude. 
+ *Depois irei fazer o mesmo programinha mas reduzindo as linhas, acredito que a estrutura de repetição ajude.
+ *A é, um pequeno detalhe que esqueci de falar, tenho varias IDE's mas esse programinha eu fiz no Notepad++ enquanto estava no 
+ *trabalho atendendo corretores presencialmente, telefone, e-mail e Skype.. melhor forma de praticar a concentração em mais 
+ *de uma tarefa haha Depois sim eu testei usando Falcon C++ e Dev-C++ e também o site https://www.onlinegdb.com/online_c++_compiler 
+ *OBS: Algumas edições durante os testes em IDEs.
  */
  
 #include <iostream>
