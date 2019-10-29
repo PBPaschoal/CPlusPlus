@@ -20,7 +20,7 @@ using namespace std;
 
 int main(){
 	int org1, oper1, praz;
-	double brut, parcel, comiss, sald, lib;
+	float brut, parcel, comiss, sald, lib;
 	string nom, cepf;
 	
 	cout<<"\nEscolha o Orgao para cadastramento:";
