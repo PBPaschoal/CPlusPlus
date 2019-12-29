@@ -1,0 +1,101 @@
+/* O mesmo programa "ProgrammingCosing.cpp" anterior só que em uma versão menor, 
+** menos códigos digitados, funcionando da mesma forma. Fico feliz pois consegui
+** melhorar o meu proprio programinha. Logo irei para pra refazer e descobrir 
+** se é possível melhorar ainda mais ele.
+** Fico feliz pois sentei quase agora pra fazer e morrendo de dor de cabeça, 
+** consegui pensar e resolver.
+** Se você ainda não viu o anterior, acessa lá em 
+** PBPaschoal/Iniciando/ProgrammingConsig.cpp
+** SEGUE ABAIXO A VERSÃO MENOR:
+*/
+
+#include <iostream>
+#include <windows.h> /*No Falcon C++ funcionou normalmente para 
+utilização do "cls" */
+
+using namespace std;
+
+int main () {
+	int val1;
+	double brut, comiss, sald, lib;
+	string nom, cepf;
+	
+	cout<<"\nEscolha o orgao para cadastramento: ";
+	cout<<"\n[1] = [INSS]: ";
+	cout<<"\n[2] = [SIAPE]: ";
+	cout<<"\n[3] = [EXERCITO]: \n\n";
+	cin>>val1;	
+	if(val1 == 1) {
+		cout<<"\nVoce selecionou INSS\n\n";
+		comiss = 15;
+		} else if (val1 == 2){
+			cout<<"\nVoce selecionou SIAPE\n\n";
+			comiss = 18;
+	} else {
+		cout<<"\nVocê selecionou EXERCITO\n\n";
+		comiss = 20;
+	}
+	cout<<"\nEscolha o tipo de operacao para cadastramento: ";
+	cout<<"\n[1] = [NOVO]: ";
+	cout<<"\n[2] = [REFINANCIAMENTO]: \n";
+	cin>>val1;	
+	if(val1 == 1){
+		cout<<"\n------------------------------";
+		cout<<"\nCADASTRAMENTO DE OPERACAO NOVA";
+		cout<<"\n------------------------------";
+		cout<<"\nInforme o nome do cliente: ";
+		cin>>nom;	
+		cout<<"\nInforme o CPF do cliente: ";
+		cin>>cepf;	
+		cout<<"\nInforme o valor Bruto: ";
+		cin>>brut;	
+		cout<<"\nInforme o valor da parcela: ";
+		cin>>val1;		
+		cout<<"\nInforme o prazo: ";
+		cin>>val1;		
+		system("cls");
+		cout<<"\n------------------------------";
+		cout<<"\n RESULTADO DA PROPOSTA ";
+		cout<<"\n------------------------------";
+		cout<<"\nCLIENTE: "<<nom;
+		cout<<"\nCPF: "<<cepf;
+		cout<<"\nValor Bruto: "<<brut;
+		cout<<"\nParcela: "<<val1;
+		cout<<"\nPrazo: "<<val1;
+		cout<<"\nPorcentagem da Comissao: " <<comiss<< "%";
+		comiss = brut * comiss/100; //Valor da comissão liquida à receber.
+		cout<<"\nValor da Comissao: "<<comiss;
+	} else {
+		cout<<"\n------------------------------";
+		cout<<"\nCADASTRAMENTO DE REFINANCIAMENTO";
+		cout<<"\n------------------------------";
+		cout<<"\nInforme o nome do cliente: ";
+		cin>>nom;
+		cout<<"\nInforme o CPF do cliente: ";
+		cin>>cepf;
+		cout<<"\nInforme o valor Bruto: ";
+		cin>>brut;
+		cout<<"\nInforme o valor do Saldo: ";
+		cin>>sald;
+		cout<<"\nInforme o valor da parcela: ";
+		cin>>val1;
+		cout<<"\nInforme o prazo: ";
+		cin>>val1;
+		system("cls");
+		cout<<"\n------------------------------";
+		cout<<"\n RESULTADO DA PROPOSTA ";
+		cout<<"\n------------------------------";
+		cout<<"\nCLIENTE: "<<nom;
+		cout<<"\nCPF: "<<cepf;
+		cout<<"\nValor Bruto: "<<brut;
+		cout<<"\nValor do Saldo: "<<sald;
+		lib = brut - sald;
+		cout<<"\nValor Liberado: "<<lib;
+		cout<<"\nParcela: "<<val1;
+		cout<<"\nPrazo: "<<val1;
+		cout<<"\nPorcentagem da Comissao: " <<comiss-3<< "%";
+		comiss = (brut - sald) * (comiss-3)/100; //Valor da comissão liquida à receber.
+		cout<<"\nValor da Comissao: "<<comiss;
+	}
+	return (0);
+}
