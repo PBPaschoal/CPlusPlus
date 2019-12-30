@@ -1,12 +1,12 @@
 /* O mesmo programa "ProgrammingCosing.cpp" anterior só que em uma versão menor, 
-** menos códigos digitados, funcionando da mesma forma. Fico feliz pois consegui
-** melhorar o meu proprio programinha. Logo irei para pra refazer e descobrir 
-** se é possível melhorar ainda mais ele.
-** Fico feliz pois sentei quase agora pra fazer e morrendo de dor de cabeça, 
-** consegui pensar e resolver.
-** Se você ainda não viu o anterior, acessa lá em 
-** PBPaschoal/Iniciando/ProgrammingConsig.cpp
-** SEGUE ABAIXO A VERSÃO MENOR:
+* menos códigos digitados, funcionando da mesma forma. Fico feliz pois consegui
+* melhorar o meu proprio programinha. Logo irei para pra refazer e descobrir 
+* se é possível melhorar ainda mais ele.
+* Fico feliz pois sentei quase agora pra fazer e morrendo de dor de cabeça, 
+* consegui pensar e resolver.
+* Se você ainda não viu o anterior, acessa lá em 
+* PBPaschoal/Iniciando/ProgrammingConsig.cpp
+* SEGUE ABAIXO A VERSÃO MENOR:
 */
 
 #include <iostream>
@@ -25,21 +25,21 @@ int main () {
 	cout<<"\n[2] = [SIAPE]: ";
 	cout<<"\n[3] = [EXERCITO]: \n\n";
 	cin>>val1;	
-	/*
-	if(val1 == 1) {
-		cout<<"\nVoce selecionou INSS\n\n";
-		comiss = 15;
-		} else if (val1 == 2){
-			cout<<"\nVoce selecionou SIAPE\n\n";
-			comiss = 18;
-	} else {
-		cout<<"\nVocê selecionou EXERCITO\n\n";
-		comiss = 20;
-	}
-	
-		>>>> TROCANDO IF POR SWITCH  <<<<
-	
-	*/
+/*
+*	if(val1 == 1) {
+*		cout<<"\nVoce selecionou INSS\n\n";
+*		comiss = 15;
+*		} else if (val1 == 2){
+*			cout<<"\nVoce selecionou SIAPE\n\n";
+*			comiss = 18;
+*	} else {
+*		cout<<"\nVocê selecionou EXERCITO\n\n";
+*		comiss = 20;
+*	}
+*	
+*		>>>> TROCANDO IF POR SWITCH  <<<<
+*	
+*/
 	
 	switch(val1) {
 			case 1:
