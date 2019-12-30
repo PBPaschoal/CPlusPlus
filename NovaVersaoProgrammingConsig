@@ -25,6 +25,7 @@ int main () {
 	cout<<"\n[2] = [SIAPE]: ";
 	cout<<"\n[3] = [EXERCITO]: \n\n";
 	cin>>val1;	
+	/*
 	if(val1 == 1) {
 		cout<<"\nVoce selecionou INSS\n\n";
 		comiss = 15;
@@ -35,6 +36,26 @@ int main () {
 		cout<<"\nVocê selecionou EXERCITO\n\n";
 		comiss = 20;
 	}
+	
+		>>>> TROCANDO IF POR SWITCH  <<<<
+	
+	*/
+	
+	switch(val1) {
+			case 1:
+				cout<<"\nVoce selecionou INSS";
+				comiss =15;
+				break;
+			case 2:
+				cout<<"\nVoce selecinou SIAPE";
+				comiss = 18;
+				break;
+			default:
+				cout<<"\nVoce selecinou EXERCITO";
+				comiss = 20;
+				break;
+		}
+	
 	cout<<"\nEscolha o tipo de operacao para cadastramento: ";
 	cout<<"\n[1] = [NOVO]: ";
 	cout<<"\n[2] = [REFINANCIAMENTO]: \n";
