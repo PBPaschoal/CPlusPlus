@@ -5,7 +5,7 @@
 
 int main()
 {
-    double altura, volume, R;
+    float altura, volume, R;
     std::cout << "Informe a altura: ";
     std::cin >> altura;
     std::cout << "Informe o valor de R: ";
