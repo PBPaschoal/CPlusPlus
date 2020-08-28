@@ -1,4 +1,6 @@
 //Exercicio 4 letra f.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
+//Exercicio 4 letra e. Do livro ALGORITMOS - Lógica para desenvolvimento de programação de computadores. 29º Edição.
+//José Augusto N. G. Manzano e Jayr Figueiredo de Oliveira
 //Ler dois valores para as variáveis A e B e efetuar a troca dos valores de forma que a variável A passe a possuir
 //o valor da variável B e a variável B passe a possuir o valor da variável A.
 //Apresentar os valores após a efetivação do processamento da troca.
