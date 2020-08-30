@@ -14,6 +14,6 @@ int main()
     std::cin >> SM;
     std::cout << "Percentual do reajuste: ";
     std::cin >> PR;
-    NS = SM * (PR / 100);
-    std::cout << "Novo salario R$ " << NS + SM << "\n\n";
+    NS = SM * PR / 100 + SM;
+    std::cout << "Novo salario R$ " << NS << "\n\n";
 }
