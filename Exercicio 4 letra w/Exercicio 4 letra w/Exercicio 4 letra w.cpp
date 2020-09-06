@@ -3,7 +3,7 @@
 //José Augusto N.G.Manzano e Jayr Figueiredo de Oliveira
 //Rio de Janeiro, dia 05 de setembro de 2020.
 //Visual Studio 2019
-//Elaborar um programa que leia uma medida em pés, calcular, armazenar e apresentar o seu valor convertido em metros, lebrando que um pé 
+//Elaborar um programa que leia uma medida em pés, calcular, armazenar e apresentar o seu valor convertido em metros, lembrando que um pé 
 //mede 0,3048 metro, ou seja, um pé é igual a 30,48 centímetros.
 
 
