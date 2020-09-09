@@ -60,8 +60,8 @@ int main()
     cout<<"\nPercentual validos de A: " << perceA << "%";
     cout<<"\nPercentual validos de B: " << perceB << "%";
     cout<<"\nPercentual validos de C: " << perceC << "%";
-    cout<<"\nPercentual validos de nulos: " << perceN << "%";
-    cout<<"\nPercentual validos em branco: " << perceBr << "%";
+    cout<<"\nPercentual de nulos: " << perceN << "%";
+    cout<<"\nPercentual em branco: " << perceBr << "%";
     
     return 0;
 }
