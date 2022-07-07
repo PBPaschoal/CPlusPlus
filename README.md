@@ -6,12 +6,16 @@ Trata-se de simulador de empréstimo consignado que desenvolvi primeiro em [C++]
 # Versões
 Primeira versão:
 [C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/ProgrammingConsig.cpp)
+
 Segunda versão:
 [C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/NovaVersaoProgrammingConsig)
+
 Terceira versão: 
 [Java](https://github.com/PBPaschoal/BeginsJava/blob/master/ConsigConsulta.java)
+
 Quarta versão:
 [C#](https://github.com/PBPaschoal/AprendendoCSharp/blob/master/ConsigConsulta.cs)
+
 Quinta versão: 
 [C#](https://github.com/PBPaschoal/AprendendoCSharp/blob/master/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
 
