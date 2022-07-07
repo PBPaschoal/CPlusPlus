@@ -1,6 +1,19 @@
 # Iniciando
 
-Como sou iniciante, aqui estão os exercícios, projetos e outros... da minha nova vida! #programação E também estou aprendendo a usar o GitHub ainda (desculpe se eu estiver fazendo algo errado).
+Como sou iniciante, aqui estão os exercícios, projetos e outros... da minha nova vida!
+Trata-se de simulador de empréstimo consignado que desenvolvi primeiro em [C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/NovaVersaoProgrammingConsig), [Java](https://github.com/PBPaschoal/BeginsJava/blob/master/ConsigConsulta.java) e depois [C#](https://github.com/PBPaschoal/Inicio-CSharp/blob/master/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
+
+# Versões
+Primeira versão:
+[C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/ProgrammingConsig.cpp)
+Segunda versão:
+[C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/NovaVersaoProgrammingConsig)
+Terceira versão: 
+[Java](https://github.com/PBPaschoal/BeginsJava/blob/master/ConsigConsulta.java)
+Quarta versão:
+[C#](https://github.com/PBPaschoal/AprendendoCSharp/blob/master/ConsigConsulta.cs)
+Quinta versão: 
+[C#](https://github.com/PBPaschoal/AprendendoCSharp/blob/master/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
 
 # ConsigJavaMenr & NovaVersaoProgrammingConsig
 
