@@ -47,3 +47,8 @@ Utilizei if e else dessa vez para decidir o resultado.
   Ao decidir, o programa solicita os dados do cliente, como nome, CPF, valor bruto, saldo, parcela e prazo.
   Apos isso, ele calcula o valor da comissão e apresenta os dados cadastrados mais o resultado do calculo (comissão a receber).
 
+## Sobre esse repositório:
+ Estarei colocando vários arquivos (projetos) nesse mesmo repositório, pois se tratam de exercícios, coisas básicas para os estudos.
+ Os projetos avançados eu irei colocar em repositórios separados.
+ 
+ ![C++](https://i.ibb.co/w7qyBfd/cmaismais.png)
