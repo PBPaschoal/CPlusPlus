@@ -2,6 +2,7 @@
 
 Como sou iniciante, aqui estão os exercícios, projetos e outros... da minha nova vida!
 Trata-se de simulador de empréstimo consignado que desenvolvi primeiro em [C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/NovaVersaoProgrammingConsig), [Java](https://github.com/PBPaschoal/BeginsJava/blob/master/ConsigConsulta.java) e depois [C#](https://github.com/PBPaschoal/Inicio-CSharp/blob/master/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
+* OBS: Como são exercícios básicos ao avançado, estou colocando todos nesse mesmo repositório. Projetos mais complexos farei um novo.
 
 # Simulador de empréstimo consignado | Versões:
 Primeira versão:
